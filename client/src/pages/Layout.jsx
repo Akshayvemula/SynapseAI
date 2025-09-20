@@ -25,7 +25,7 @@ const Layout = () => {
       </nav>
       <div className='flex-1 w-full flex h-[calc(100vh-64)]'>
 
-        <Sidebar sidebar={sidebar} setsidebar={setsidebar}/>
+        <SideBar sidebar={sidebar} setsidebar={setsidebar}/>
 
         <div className='flex-1 bg-[#F4F7FB]' >
                 <Outlet/>
