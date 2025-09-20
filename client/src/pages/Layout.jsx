@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Outlet, useNavigate } from 'react-router-dom'
 import { assets } from '../assets/assets'
 import { Menu, X } from 'lucide-react'
-import SideBar from '../components/SideBar'
+import Sidebar from '../components/Sidebar'
 import { SignIn,useUser } from '@clerk/clerk-react'
 
 
@@ -25,7 +25,7 @@ const Layout = () => {
       </nav>
       <div className='flex-1 w-full flex h-[calc(100vh-64)]'>
 
-        <SideBar sidebar={sidebar} setsidebar={setsidebar}/>
+        <Sidebar sidebar={sidebar} setsidebar={setsidebar}/>
 
         <div className='flex-1 bg-[#F4F7FB]' >
                 <Outlet/>
