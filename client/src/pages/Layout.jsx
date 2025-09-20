@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Outlet, useNavigate } from 'react-router-dom'
 import { assets } from '../assets/assets'
 import { Menu, X } from 'lucide-react'
-import Sidebar from '../components/SideBar'
+import SideBar from '../components/SideBar'
 import { SignIn,useUser } from '@clerk/clerk-react'
 
 
